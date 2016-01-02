@@ -1,6 +1,7 @@
 package nowdiscover.youtuberequester.service;
 
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -30,8 +31,10 @@ public class FrequencyWordServiceImpl implements FrequencyWordService {
 		Map<String, Integer> mapResult = MapUtils.fillMapWords(result.iterator());
 
 		List<FrequencyWord> frequencyList = transform(mapResult);
-		if (!frequencyList.isEmpty())
+		if (!frequencyList.isEmpty()){
 			Collections.sort(frequencyList);
+			calculateFrequency(frequencyList);
+		}
 		return frequencyList;
 	}
 
@@ -69,6 +72,27 @@ public class FrequencyWordServiceImpl implements FrequencyWordService {
 		if (!frequencyList.isEmpty())
 			Collections.sort(frequencyList);
 		return frequencyList;
+	}
+
+	@Override
+	public List<FrequencyWord> getDiscriminateWords(String param, Integer maxNumber) throws IOException {
+		List<FrequencyWord> list = this.getFrequencyByParam(param, maxNumber);
+		List<FrequencyWord> frequencyDiscriminate = this.getFrequencyDiscriminate(list, param, maxNumber);
+		return frequencyDiscriminate;
+		
+	}
+	
+	private void calculateFrequency(List<FrequencyWord> list){
+		int totalWords = 0;
+		for (FrequencyWord frequencyWord : list) {
+			totalWords = totalWords + frequencyWord.getCount();
+		}
+		
+		for (FrequencyWord frequencyWord : list) {
+			double freq = ((frequencyWord.getCount() * 100) / totalWords);
+			BigDecimal b = new BigDecimal(freq);
+			frequencyWord.setFrequency(b);
+		}
 	}
 
 }

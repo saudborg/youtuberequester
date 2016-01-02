@@ -1,5 +1,7 @@
 package nowdiscover.youtuberequester.domain;
 
+import java.math.BigDecimal;
+
 /**
  * Class that represents a word and how many times appear in one request to
  * Youtube
@@ -11,6 +13,7 @@ public class FrequencyWord implements Comparable<FrequencyWord> {
 
 	private String word;
 	private Integer count;
+	private BigDecimal frequency;
 
 	public FrequencyWord(String word, Integer count) {
 		super();
@@ -47,6 +50,14 @@ public class FrequencyWord implements Comparable<FrequencyWord> {
 	@Override
 	public String toString() {
 		return "FrequencyWord [word=" + word + ", count=" + count + "]";
+	}
+
+	public BigDecimal getFrequency() {
+		return frequency;
+	}
+
+	public void setFrequency(BigDecimal frequencie) {
+		this.frequency = frequencie;
 	}
 
 }

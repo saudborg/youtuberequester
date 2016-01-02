@@ -2,6 +2,11 @@
 
 <html lang="en">
 
+#if($!message)
+	<b><span style="color:red">$message</span></b>
+	<br>
+	<br>
+#end
 <table>
 <td>
 	Results for <b>$param</b>
@@ -13,7 +18,10 @@
     <tr>
     	<td>$obj.word</td>
     	<td>$obj.count</td>
+    	<td>$obj.frequency %</td>
     </tr>
+    
+    
 #end
 </td>
 </table>

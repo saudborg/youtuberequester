@@ -1,6 +1,6 @@
 package nowdiscover.youtuberequester;
 
-import static junit.framework.Assert.assertTrue;
+import static junit.framework.Assert.*;
 
 import org.junit.Test;
 
