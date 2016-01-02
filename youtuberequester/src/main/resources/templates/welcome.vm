@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<table>
+<td>
+	Results for <b>$param</b>
+	<br>
+	Maximum Results <b>$maximumResults</b>
+	<br>
+	
+	#foreach( $obj in $result )
+    <tr>
+    	<td>$obj.word</td>
+    	<td>$obj.count</td>
+    </tr>
+#end
+</td>
+</table>
+<body>
+
+
+
+</html>

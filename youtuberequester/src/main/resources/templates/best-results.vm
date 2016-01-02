@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+Word: <b>$query</b>
+<br> 
+Maximum results: <b>$maxNumber</b> 
+<br>
+<br>The best words to discriminate:
+
+
+<table>
+<td>
+#foreach( $obj in $bestResults )
+    <tr>
+    	<td>$obj.word</td>
+    	<td>$obj.count</td>
+    </tr>
+#end
+</td>
+</table>
+
+If you search for these words, you always will find the param that you searched in this results
+<body>
+
+
+
+</html>
