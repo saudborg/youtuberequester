@@ -11,7 +11,7 @@
 <td>
 	Results for <b>$param</b>
 	<br>
-	Maximum Results <b>$maximumResults</b>
+	Maximum Results <b>$maxNumber</b>
 	<br>
 	
 	#foreach( $obj in $result )

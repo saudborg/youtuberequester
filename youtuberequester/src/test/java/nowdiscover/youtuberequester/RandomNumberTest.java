@@ -8,7 +8,7 @@ import nowdiscover.youtuberequester.util.RandonNumberGeneration;
 
 /**
  * Class to test if the class RandonNumberGeneration always get a number bigger
- * then 50 or lass then 50 when you choose wich one you wanna
+ * than 50 or lower than 50 when you choose which one you wanna
  * 
  * @author sauloborges
  *

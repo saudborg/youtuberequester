@@ -8,7 +8,7 @@
 	<br>
 #end
 
-Word: <b>$query</b>
+Word: <b>$param</b>
 <br> 
 Maximum results: <b>$maxNumber</b> 
 <br>

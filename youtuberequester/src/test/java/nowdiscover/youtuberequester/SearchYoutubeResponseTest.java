@@ -13,7 +13,8 @@ import nowdiscover.youtuberequester.service.FrequencyWordService;
 import nowdiscover.youtuberequester.service.FrequencyWordServiceImpl;
 
 /**
- * Test the response from Youtube request is the same
+ * Test the response from Youtube request is the expected
+ * 
  * @author sauloborges
  *
  */
@@ -27,7 +28,9 @@ public class SearchYoutubeResponseTest {
 	}
 
 	/**
-	 * This test is to confirm that the word pig is always the most comum
+	 * This test is to confirm that the word pig is always the most comum when
+	 * you search for pig in youtube
+	 * 
 	 * @throws IOException
 	 */
 	@Test
@@ -38,7 +41,9 @@ public class SearchYoutubeResponseTest {
 	}
 
 	/**
-	 * This test is to confirm that the word duck is always the most comum, doesn't important the max number of results
+	 * this test is to confirm that the word duck is always the most common when
+	 * you search for duck in youtube, doesn't matter the max number of results
+	 * 
 	 * @throws IOException
 	 */
 	@Test
@@ -49,10 +54,10 @@ public class SearchYoutubeResponseTest {
 	}
 
 	/**
-	 * In this test
-	 * 1 - Get all the words when you request the word pig
-	 * 2 - Get the words that appear offten
-	 * 3 - The word choosed in parameter musn't be in these words
+	 * In this test 1 - Get all the words when you request the word pig 2 - Get
+	 * the words that appear more often 3 - The word chosen in parameter musn't
+	 * be in these words
+	 * 
 	 * @throws IOException
 	 */
 	@Test
@@ -82,11 +87,10 @@ public class SearchYoutubeResponseTest {
 	}
 
 	/**
-	 * In this test
-	 * 1 - Get all the words when you request the word pig
-	 * 2 - Get the words that appear offten
-	 * 3 - Using each word, search in Youtube API again
-	 * 4 - Assert if the word in parameter appear in new result
+	 * In this test 1 - Get all the words when you request the word pig 2 - Get
+	 * the words that appear more often 3 - Using each word, search in Youtube
+	 * API again 4 - Assert if the word in parameter appear in new result
+	 * 
 	 * @throws IOException
 	 */
 	@Test
