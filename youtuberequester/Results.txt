@@ -1,0 +1,167 @@
+RESULTS
+
+● Get any number (> 50) of video information for the search term “duck” (use [1])
+● Calculate the word frequency of appropriate terms in the responded data for each search term
+
+Results for duck 
+Maximum Results 170 
+duck				185	11 %
+donald				139	8 %
+cartoons			70	4 %
+chip				60	3 %
+full				59	3 %
+and					59	3 %
+dale				57	3 %
+episodes			45	2 %
+compilation			44	2 %
+cartoon				38	2 %
+hd					37	2 %
+new					35	2 %
+collection			21	1 %
+english				19	1 %
+ducks				19	1 %
+disney				19	1 %
+ultimate			17	1 %
+movies				16	0 %
+an					16	0 %
+hour				16	0 %
+classics			15	0 %
+five				15	0 %
+little				15	0 %
+from				14	0 %
+vines				14	0 %
+mickey				13	0 %
+all					13	0 %
+of					13	0 %
+by					12	0 %
+songs				12	0 %
+deutsch				12	0 %
+nursery				11	0 %
+funny				11	0 %
+a					11	0 %
+rhymes				11	0 %
+mighty				10	0 %
+goofy				10	0 %
+classic				10	0 %
+vine				10	0 %
+for					10	0 %
+mouse				9	0 %
+best				9	0 %
+more				8	0 %
+pluto				8	0 %
+with				8	0 %
+littlebabybum		7	0 %
+w					7	0 %
+marathon			7	0 %
+army				7	0 %
+titles				7	0 %
+version				6	0 %
+looney				6	0 %
+kids				6	0 %
+game				6	0 %
+video				6	0 %
+folgen				6	0 %
+videos				4	0 %
+number				4	0 %
+children			4	0 %
+bees				4	0 %
+song				4	0 %
+in					4	0 %
+fbg					4	0 %
+animation			4	0 %
+
+● Which words would you use to discriminate duck and why?
+
+Word: duck 
+Maximum results: 430 
+
+The best words to discriminate:
+donald				128
+cartoons			128
+dale				128
+cartoon				120
+chip				33
+
+If you search for these words, you always will find the param that you searched in this results.
+So, I consider these words is the best to descriminate
+
+
+
+
+● Get any number (> 50) of video information for the search term “pig” (use [1])
+● Calculate the word frequency of appropriate terms in the responded data for each search term
+
+
+Results for pig 
+Maximum Results 156 
+pig					204	13 %
+peppa				173	11 %
+episodes			48	3 %
+george				36	2 %
+english				35	2 %
+compilation			34	2 %
+portugues			30	1 %
+da					27	1 %
+de					27	1 %
+new					25	1 %
+em					24	1 %
+a					21	1 %
+surprise			21	1 %
+in					18	1 %
+tototoykids			18	1 %
+familia				18	1 %
+eggs				15	0 %
+minecraft			15	0 %
+toys				15	0 %
+casa				13	0 %
+episode				12	0 %
+season				12	0 %
+com					12	0 %
+do					12	0 %
+full				10	0 %
+play				9	0 %
+videos				9	0 %
+medo				9	0 %
+doh					9	0 %
+brasil				9	0 %
+en					9	0 %
+na					9	0 %
+disneykids			9	0 %
+brinquedos			9	0 %
+hd					9	0 %
+stop				7	0 %
+the					7	0 %
+la					7	0 %
+non					7	0 %
+gigante				6	0 %
+fam					6	0 %
+giant				6	0 %
+wonderful			6	0 %
+espa				6	0 %
+jellyfish			6	0 %
+cute				6	0 %
+papai				6	0 %
+cartoon				6	0 %
+unboxing			6	0 %
+kidstoys			6	0 %
+fun					6	0 %
+assustador			6	0 %
+lia					6	0 %
+parte				6	0 %
+all					6	0 %
+party				6	0 %
+
+● Which words would you use to discriminate pig videos and why?
+
+Word: pig 
+Maximum results: 467 
+
+The best words to discriminate:
+peppa				522
+george				226
+portugues			174
+episodes			140
+english				65
+
+If you search for these words, you always will find the param that you searched in this results
+So, I consider these words is the best to descriminate
